@@ -1,0 +1,37 @@
+_id: req_a85ba62e69e147ccb8366c98448eedbd
+type: Request
+parentId: fld_7ce75ac8bc1e4852a6ab3b63ab2e2416
+modified: 1695389281142
+created: 1695389224356
+url: "{{ _.base_url_cassemspay_dev }}/pos-negotiations/payment-confirmation"
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "idNegociacao": "724",
+        "transacao": {
+            "valor": 80,
+            "nsu": "34832530635551",
+            "formaDePagamento": "CREDITO_A_VISTA",
+            "parcelas": "1",
+            "dataHora": "2023-09-05 09:47:00"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695389224356
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

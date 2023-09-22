@@ -1,0 +1,27 @@
+_id: req_97ecd38a8a5e4e9383dde408ad6d22d0
+type: Request
+parentId: fld_7ce75ac8bc1e4852a6ab3b63ab2e2416
+modified: 1695389286419
+created: 1695389161794
+url: "{{ _.base_url_cassemspay_dev }}/pos-negotiations/find-negotiation"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_91af44cb64b7412e8f202fdc013a9b18
+    name: idNegotiation
+    value: "3"
+    description: ""
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695389161794
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

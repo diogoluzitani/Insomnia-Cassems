@@ -1,0 +1,16 @@
+_id: env_8e4cb9cd1056e778e45967905580c5158347b13b
+type: Environment
+parentId: wrk_7d2f5b1a7f804a2d86b062de2fcc7a56
+modified: 1695388975167
+created: 1694902138826
+name: Base Environment
+data:
+  base_url_cassemspay_prod: https://pay-api.cassems.com.br
+  base_url_cassemspay_dev: https://cassemspay-dev.azurewebsites.net
+dataPropertyOrder:
+  "&":
+    - base_url_cassemspay_prod
+    - base_url_cassemspay_dev
+color: null
+isPrivate: false
+metaSortKey: 1694902138826

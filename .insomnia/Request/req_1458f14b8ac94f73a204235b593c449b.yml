@@ -1,0 +1,24 @@
+_id: req_1458f14b8ac94f73a204235b593c449b
+type: Request
+parentId: fld_2c2861a8dc0e4de5817d6c24338cde57
+modified: 1695389150071
+created: 1695389025922
+url: "{{ _.base_url_cassemspay_prod
+  }}/opme-negotiations/schedule-verify-payment-pix-banco-facil-service"
+name: Atualizar Negociações Pix Banco Fácil
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695389148946
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

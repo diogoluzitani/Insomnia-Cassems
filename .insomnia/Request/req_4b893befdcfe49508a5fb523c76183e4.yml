@@ -1,0 +1,31 @@
+_id: req_4b893befdcfe49508a5fb523c76183e4
+type: Request
+parentId: wrk_7d2f5b1a7f804a2d86b062de2fcc7a56
+modified: 1695041921403
+created: 1694902141059
+url: https://auth-api.frontline.cassems.com.br/users/login/ad
+name: Auth
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"login": "1642",
+    	"password": "{{ _.senha }}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694902141059
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_161928a541e94855bcbb63ada07d2bec
+type: Request
+parentId: fld_2c2861a8dc0e4de5817d6c24338cde57
+modified: 1695389151943
+created: 1695389047232
+url: "{{ _.base_url_cassemspay_prod
+  }}/opme-negotiations/schedule-verify-payment-pos-banco-facil-service"
+name: Atualizar Negociações POS Stone - Banco Fácil
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695389148896
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

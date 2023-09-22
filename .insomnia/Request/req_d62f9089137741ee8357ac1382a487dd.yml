@@ -1,0 +1,24 @@
+_id: req_d62f9089137741ee8357ac1382a487dd
+type: Request
+parentId: fld_2c2861a8dc0e4de5817d6c24338cde57
+modified: 1695389148870
+created: 1695388866191
+url: "{{ _.base_url_cassemspay_prod
+  }}/opme-negotiations/schedule-verify-payment-boleto-pagarme-service"
+name: Atualizar Negociações Boleto Pagarme
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695389148846
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
