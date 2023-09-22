@@ -1,10 +1,10 @@
 _id: req_a85ba62e69e147ccb8366c98448eedbd
 type: Request
 parentId: fld_7ce75ac8bc1e4852a6ab3b63ab2e2416
-modified: 1695389281142
+modified: 1695393219175
 created: 1695389224356
 url: "{{ _.base_url_cassemspay_dev }}/pos-negotiations/payment-confirmation"
-name: New Request
+name: Baixar Negociações
 description: ""
 method: POST
 body:
@@ -26,7 +26,12 @@ headers:
     value: application/json
   - name: User-Agent
     value: insomnia/2023.5.8
-authentication: {}
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: ""
+  password: "{{ _.auth_pay_api_dev }}"
 metaSortKey: -1695389224356
 isPrivate: false
 settingStoreCookies: true
