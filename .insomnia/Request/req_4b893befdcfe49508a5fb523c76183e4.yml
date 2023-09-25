@@ -1,7 +1,7 @@
 _id: req_4b893befdcfe49508a5fb523c76183e4
 type: Request
-parentId: wrk_7d2f5b1a7f804a2d86b062de2fcc7a56
-modified: 1695041921403
+parentId: fld_bff6734e22404148b40f69aeb00fc1d7
+modified: 1695403730945
 created: 1694902141059
 url: https://auth-api.frontline.cassems.com.br/users/login/ad
 name: Auth
@@ -21,7 +21,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1694902141059
+metaSortKey: -1695403730925
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
