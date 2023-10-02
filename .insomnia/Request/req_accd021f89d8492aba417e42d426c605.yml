@@ -1,0 +1,25 @@
+_id: req_accd021f89d8492aba417e42d426c605
+type: Request
+parentId: fld_cd16b550561349cd953fb20b1a0a99f0
+modified: 1696269824487
+created: 1695755859607
+url: "{{ _.base_url_cassemspay_prod
+  }}/opme-negotiations/replace-titles-credit-card-banco-facil-single-installmen\
+  t"
+name: Cartao a Vista - POS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695755859607
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

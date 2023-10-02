@@ -1,0 +1,29 @@
+_id: req_f221aadbabca4c438981f01ea8463036
+type: Request
+parentId: fld_8c5257dac27b4d0ab9b45c705eab83a4
+modified: 1695660438339
+created: 1695660349263
+url: "{{ _.base_url_bancofacil_dev }}/api/auth/{{ _.user_bancofacil_hom }}}/{{
+  _.password_bancofacil_hom }}}"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: ""
+  password: pkaAmsviVKDVMAC
+metaSortKey: -1695660349263
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

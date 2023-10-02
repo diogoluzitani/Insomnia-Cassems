@@ -1,0 +1,24 @@
+_id: req_62dce39b6af443f5b09f95426c23d399
+type: Request
+parentId: fld_cd16b550561349cd953fb20b1a0a99f0
+modified: 1696270871182
+created: 1696269883724
+url: "{{ _.base_url_cassemspay_prod
+  }}/opme-negotiations/replace-titles-debit-banco-facil"
+name: Cartao Debito - POS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695755847390.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

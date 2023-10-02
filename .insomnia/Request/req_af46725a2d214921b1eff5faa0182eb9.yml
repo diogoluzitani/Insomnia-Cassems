@@ -1,0 +1,24 @@
+_id: req_af46725a2d214921b1eff5faa0182eb9
+type: Request
+parentId: fld_cd16b550561349cd953fb20b1a0a99f0
+modified: 1695755908189
+created: 1695755818346
+url: "{{ _.base_url_cassemspay_prod
+  }}/opme-negotiations/replace-titles-boleto-single-installment"
+name: Boleto 1 Parcela
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695755859657
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

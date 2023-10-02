@@ -1,20 +1,30 @@
 _id: env_8e4cb9cd1056e778e45967905580c5158347b13b
 type: Environment
 parentId: wrk_7d2f5b1a7f804a2d86b062de2fcc7a56
-modified: 1695393136717
+modified: 1695659686542
 created: 1694902138826
 name: Base Environment
 data:
   base_url_cassemspay_prod: https://pay-api.cassems.com.br
   base_url_cassemspay_dev: https://cassemspay-dev.azurewebsites.net
+  base_url_bancofacil_prod: https://conta.bfacil.com.br
+  base_url_bancofacil_dev: https://sbx.bfacil.com.br
   auth_pay_api_prod: CASSEMSPAYPRODUCTION
   auth_pay_api_dev: CASSEMSPAYDEVELOP
+  accountId_BF_prod: 77ED57BD-DAD6-B9AB-96E6-DC9DE211FF37
+  user_bancofacil_hom: diogosilva
+  password_bancofacil_hom: 290af453b360d365f18c6198142e7eb48f987b1d86f6c2164e787d774b251be4
 dataPropertyOrder:
   "&":
     - base_url_cassemspay_prod
     - base_url_cassemspay_dev
+    - base_url_bancofacil_prod
+    - base_url_bancofacil_dev
     - auth_pay_api_prod
     - auth_pay_api_dev
+    - accountId_BF_prod
+    - user_bancofacil_hom
+    - password_bancofacil_hom
 color: null
 isPrivate: false
 metaSortKey: 1694902138826

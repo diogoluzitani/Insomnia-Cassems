@@ -1,0 +1,25 @@
+_id: req_d510dc0612bc4c8e8264fe1382c294ad
+type: Request
+parentId: fld_cd16b550561349cd953fb20b1a0a99f0
+modified: 1696270882797
+created: 1696269837543
+url: "{{ _.base_url_cassemspay_prod
+  }}/opme-negotiations/replace-titles-credit-card-banco-facil-multiple-installm\
+  ent"
+name: Cartao Parcelado - POS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695755849834
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

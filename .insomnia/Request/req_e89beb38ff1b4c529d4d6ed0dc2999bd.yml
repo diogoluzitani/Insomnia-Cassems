@@ -1,0 +1,24 @@
+_id: req_e89beb38ff1b4c529d4d6ed0dc2999bd
+type: Request
+parentId: fld_cd16b550561349cd953fb20b1a0a99f0
+modified: 1695755902800
+created: 1695755760411
+url: "{{ _.base_url_cassemspay_prod
+  }}/opme-negotiations/replace-titles-boleto-installment"
+name: Boleto Parcelado
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695755859707
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

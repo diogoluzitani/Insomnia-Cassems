@@ -1,0 +1,24 @@
+_id: req_5a0b17ccbc494bf5b64a44e149631cd8
+type: Request
+parentId: fld_cd16b550561349cd953fb20b1a0a99f0
+modified: 1695755918767
+created: 1695755840061
+url: "{{ _.base_url_cassemspay_prod
+  }}/opme-negotiations/replace-titles-pix-banco-facil"
+name: Pix
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695755840061
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
